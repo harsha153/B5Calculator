@@ -1,5 +1,5 @@
 
-package Controller;
+package com.batch5.Batch5Calculator.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
