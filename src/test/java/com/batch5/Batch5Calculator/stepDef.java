@@ -17,7 +17,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 @RunWith(SpringRunner.class) //This line and the one below is to deploy the application
-@SpringBootTest(webEnvironment=WebEnvironment.DEFINED_PORT,classes=Calculator.class) //This is the additional functionality provided by SpringRunner class 
+@SpringBootTest(webEnvironment=WebEnvironment.DEFINED_PORT,classes=Batch5CalculatorApplication.class) //This is the additional functionality provided by SpringRunner class 
 public class stepDef {
 	String url;
 	double result;
