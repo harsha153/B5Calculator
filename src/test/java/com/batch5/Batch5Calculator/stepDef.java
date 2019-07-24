@@ -34,7 +34,7 @@ public class stepDef {
 
 	@Then("expected result is {string}")
 	public void expected_result_is(String string) {
-		assertEquals(result,20,0.01);
+		assertEquals(20,result,0.01);
 	}
 
 
